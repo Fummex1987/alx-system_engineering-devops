@@ -1,2 +1,2 @@
 #!/bin/bash
-cat rot.txt | unrot13
+encode_rot13(){tr 'A-Za-z' 'N-ZA-Mn-za-m'} decode_rot13() {tr 'A-Za-z' 'N-ZA-Mn-za-m']
